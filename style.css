@@ -41,6 +41,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  z-index: 999;
 }
 
 .orange {
@@ -63,6 +64,7 @@ img {
 }
 
 button {
+  background-color: white;
   margin-top: 100px;
   border-radius: 50px;
   border: none;
@@ -74,17 +76,14 @@ button {
 
 .orange button {
   color: var(--orange);
-  z-index: 1000;
 }
 
 .blue button {
   color: var(--dark-cyan);
-  z-index: 1000;
 }
 
 .green button {
   color: var(--very-dark-cyan);
-  z-index: 1000;
 }
 
 button:hover {
