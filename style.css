@@ -24,7 +24,6 @@ body {
 section {
   display: flex;
   border-radius: 5px;
-  /* overflow: hidden; */
 }
 
 h1 {
@@ -70,6 +69,7 @@ button {
   height: 60px;
   width: 200px;
   font-family: var(--font-family);
+  z-index: 1000;
 }
 
 .orange button {
