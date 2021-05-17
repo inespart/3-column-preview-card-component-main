@@ -74,14 +74,17 @@ button {
 
 .orange button {
   color: var(--orange);
+  z-index: 1000;
 }
 
 .blue button {
   color: var(--dark-cyan);
+  z-index: 1000;
 }
 
 .green button {
   color: var(--very-dark-cyan);
+  z-index: 1000;
 }
 
 button:hover {
