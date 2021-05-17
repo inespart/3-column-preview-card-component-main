@@ -23,6 +23,8 @@ body {
 
 section {
   display: flex;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 h1 {
@@ -44,7 +46,7 @@ h1 {
 
 .orange {
   background-color: var(--orange);
-  border-radius: 7px 0px 0px 7px;
+  /* border-radius: 7px 0px 0px 7px; */
 }
 
 .blue {
@@ -53,7 +55,7 @@ h1 {
 
 .green {
   background-color: var(--very-dark-cyan);
-  border-radius: 0 7px 7px 0px;
+  /* border-radius: 0 7px 7px 0px; */
 }
 
 img {
