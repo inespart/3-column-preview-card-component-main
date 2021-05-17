@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+  --font-size: 15px;
+  --font-family: 'Lexend Deca';
+  --orange: #e28525;
+  --dark-cyan: #016972;
+  --very-dark-cyan: #00403f;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display';
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.box {
+  height: 500px;
+  width: 200px;
+  padding: 55px;
+  color: white;
+  line-height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.orange {
+  background-color: var(--orange);
+  border-radius: 7px 0px 0px 7px;
+}
+
+.blue {
+  background-color: var(--dark-cyan);
+}
+
+.green {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 7px 7px 0px;
+}
+
+img {
+  display: block;
+  margin: 15px 0 35px 0;
+}
+
+button {
+  margin-top: 100px;
+  border-radius: 50px;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-family: var(--font-family);
+}
+
+.orange button {
+  color: var(--orange);
+}
+
+.blue button {
+  color: var(--dark-cyan);
+}
+
+.green button {
+  color: var(--very-dark-cyan);
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    width: 100vw;
+    box-sizing: border-box;
+    border-radius: 0;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
